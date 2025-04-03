@@ -1,0 +1,64 @@
+{
+  "name": "react-clock-time",
+  "version": "1.0.11",
+  "description": "A reusable React clock package with analog and digital clocks",
+  "type": "module",
+  "main": "dist/react-clock-time.cjs.js",
+  "module": "dist/react-clock-time.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/react-clock-time.esm.js",
+      "require": "./dist/react-clock-time.cjs.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "peerDependencies": {
+    "@emotion/styled": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@types/react": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "rollup": "^3.29.5",
+    "rollup-plugin-dts": "^5.3.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.2",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masoudbigdeli/react-clock-time"
+  },
+  "homepage": "https://react-clock-analog-digital-demo.vercel.app",
+  "keywords": [
+    "react",
+    "clock",
+    "analog",
+    "digital",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
