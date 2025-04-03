@@ -1,6 +1,6 @@
 {
   "name": "react-clock-time",
-  "version": "1.0.11",
+  "version": "1.0.0",
   "description": "A reusable React clock package with analog and digital clocks",
   "type": "module",
   "main": "dist/react-clock-time.cjs.js",
